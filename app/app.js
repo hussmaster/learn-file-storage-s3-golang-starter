@@ -264,6 +264,7 @@ function viewVideo(video) {
     thumbnailImg.src = video.thumbnail_url;
   }
 
+
   const videoPlayer = document.getElementById('video-player');
   if (videoPlayer) {
     if (!video.video_url) {
